@@ -1,0 +1,6 @@
+version: "0.0.1"
+description: A st25dv provisioning library for esp32 using the esp-idf framework.
+dependencies:
+  #ST25DV Library
+  st25dv:
+    git: https://github.com/RJRP44/ST25DV-Library.git
