@@ -1,11 +1,11 @@
 dependencies:
   st25dv:
-    component_hash: 5f3b0ec63abb0dcc0fcaabdbf9ba8e7c1ba49fd74b23afab9530cdc38661b2dd
+    component_hash: 0765388cbd96ea38fa0fc57cc85fe533766432b4a0df1f7c68591b00da0eb58e
     source:
       git: https://github.com/RJRP44/ST25DV-Library.git
       path: .
       type: git
-    version: f113b96ed57949790bfa2ed2e1ccdb0c7d2fc820
-manifest_hash: 506a3686c38e34d1c50924df8f5457bb44789dcb36a938b19fdc3a6163ce24ce
+    version: cc274f8a03a468b2839eae2f3a9562ad24dda4a8
+manifest_hash: 1ff143c3489aff444992107e4c24328d88854a642db9b47b1e71262ee8d2d3bc
 target: esp32s3
 version: 1.0.0
