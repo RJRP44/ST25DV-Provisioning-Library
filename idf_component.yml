@@ -1,4 +1,4 @@
-version: "0.0.1"
+version: "0.1.0"
 description: A st25dv provisioning library for esp32 using the esp-idf framework.
 dependencies:
   #ST25DV Library
