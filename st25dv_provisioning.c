@@ -182,6 +182,18 @@ void st25dv_prov_task(void *arg) {
 
             //Apply readed configuration
             wifi_config_t wifi_config = {};
+
+
+            if (strlen(ssid->valuestring) > 32){
+                ESP_LOGE("St25dv-Prov","SSID length is too long, > 32 characters");
+                continue;
+            }
+
+            if (strlen(password->valuestring) > 64){
+                ESP_LOGE("St25dv-Prov","Password length is too long, > 64 characters");
+                continue;
+            }
+
             memcpy(wifi_config.sta.ssid, ssid->valuestring, strlen(ssid->valuestring));
             memcpy(wifi_config.sta.password, password->valuestring, strlen(password->valuestring));
             wifi_config.sta.threshold.authmode = auth->valueint;
